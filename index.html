@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
+ <head>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <style>
+   * {
   box-sizing: border-box;
 }
 
@@ -37,7 +37,7 @@ h1 {
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
-  width: 33.33%;
+  width: 25.00%;
   display: none; /* Hide all elements by default */
 }
 
@@ -63,6 +63,7 @@ h1 {
 .btn {
   border: none;
   outline: none;
+  font-size: 16px;
   padding: 12px 16px;
   background-color: white;
   cursor: pointer;
@@ -76,100 +77,175 @@ h1 {
   background-color: #666;
   color: white;
 }
-</style>
-</head>
-<body>
-
-<!-- MAIN (Center website) -->
-<div class="main">
-
-<h1>Image Gallery HTML</h1>
-<hr>
-
-<h2>Bunch of Images</h2>
-
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('nature')"> Nature</button>
-  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-  <button class="btn" onclick="filterSelection('people')"> People</button>
-</div>
-
-<!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column nature">
-    <div class="content">
-      <img src="https://picsum.photos/300/200?random=1" alt="Mountains" style="width:100%">
-      <h4>Mountains</h4>
-      <p>Lorem ipsum dolor..</p>
+  </style>
+ </head>
+ <body>
+  <!-- MAIN (Center website) -->
+  <div class="main">
+   <!-- <h1>Image Gallery HTML</h1> -->
+   <h1>
+    My Favorite Movies
+   </h1>
+   <hr/>
+   <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('all')">
+     Show all
+    </button>
+    <button class="btn" onclick="filterSelection('live-action')">
+     Live Action
+    </button>
+    <button class="btn" onclick="filterSelection('animation')">
+     Animation
+    </button>
+   </div>
+   <!-- Portfolio Gallery Grid -->
+   <div class="row">
+    <div class="column live-action">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/pvSESD7ujxWZwtYDb9l57qE0ywq.jpg" style="width:100%"/>
+      <h4>
+       The Prestige (2006)
+      </h4>
+      <p>
+      </p>
+     </div>
     </div>
-  </div>
-  <div class="column nature">
-    <div class="content">
-    <img src="https://picsum.photos/300/200?random=2" alt="Lights" style="width:100%">
-      <h4>Lights</h4>
-      <p>Lorem ipsum dolor..</p>
+    <div class="column live-action">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg" style="width:100%"/>
+      <h4>
+       Interstellar (2014)
+      </h4>
+      <p>
+      </p>
+     </div>
     </div>
-  </div>
-  <div class="column nature">
-    <div class="content">
-    <img src="https://picsum.photos/300/200?random=3" alt="Nature" style="width:100%">
-      <h4>Forest</h4>
-      <p>Lorem ipsum dolor..</p>
+    <div class="column live-action">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/x2FJsf1ElAgr63Y3PNPtJrcmpoe.jpg" style="width:100%"/>
+      <h4>
+       Arrival (2016)
+      </h4>
+      <p>
+      </p>
+     </div>
     </div>
-  </div>
-
-  <div class="column cars">
-    <div class="content">
-      <img src="https://picsum.photos/300/200?random=4" alt="Car" style="width:100%">
-      <h4>Retro</h4>
-      <p>Lorem ipsum dolor..</p>
+    <div class="column live-action">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg" style="width:100%"/>
+      <h4>
+       Inception (2010)
+      </h4>
+      <p>
+      </p>
+     </div>
     </div>
-  </div>
-  <div class="column cars">
-    <div class="content">
-    <img src="https://picsum.photos/300/200?random=5" alt="Car" style="width:100%">
-      <h4>Fast</h4>
-      <p>Lorem ipsum dolor..</p>
+    <div class="column live-action">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/or06FN3Dka5tukK1e9sl16pB3iy.jpg" style="width:100%"/>
+      <h4>
+       Avengers: Endgame (2019)
+      </h4>
+      <p>
+      </p>
+     </div>
     </div>
-  </div>
-  <div class="column cars">
-    <div class="content">
-    <img src="https://picsum.photos/300/200?random=6" alt="Car" style="width:100%">
-      <h4>Classic</h4>
-      <p>Lorem ipsum dolor..</p>
+    <div class="column live-action">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/qJ2tW6WMUDux911r6m7haRef0WH.jpg" style="width:100%"/>
+      <h4>
+       The Dark Knight (2008)
+      </h4>
+      <p>
+      </p>
+     </div>
     </div>
-  </div>
-
-  <div class="column people">
-    <div class="content">
-      <img src="https://picsum.photos/300/200?random=7" alt="Car" style="width:100%">
-      <h4>Girl</h4>
-      <p>Lorem ipsum dolor..</p>
+    <div class="column animation">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/q719jXXEzOoYaps6babgKnONONX.jpg" style="width:100%"/>
+      <h4>
+       Your Name. (2016)
+      </h4>
+      <p>
+      </p>
+     </div>
     </div>
-  </div>
-  <div class="column people">
-    <div class="content">
-    <img src="https://picsum.photos/300/200?random=8" alt="Car" style="width:100%">
-      <h4>Man</h4>
-      <p>Lorem ipsum dolor..</p>
+    <div class="column live-action">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg" style="width:100%"/>
+      <h4>
+       Inglourious Basterds (2009)
+      </h4>
+      <p>
+      </p>
+     </div>
     </div>
-  </div>
-  <div class="column people">
-    <div class="content">
-    <img src="https://picsum.photos/300/200?random=9" alt="Car" style="width:100%">
-      <h4>Woman</h4>
-      <p>Lorem ipsum dolor..</p>
+    <div class="column animation">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/dJI2FSs3qfEPW82cWYfIaV8cVmN.jpg" style="width:100%"/>
+      <h4>
+       Paprika (2006)
+      </h4>
+      <p>
+      </p>
+     </div>
     </div>
+    <div class="column animation">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/lRHE0vzf3oYJrhbsHXjIkF4Tl5A.jpg" style="width:100%"/>
+      <h4>
+       Inside Out (2015)
+      </h4>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div class="column animation">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg" style="width:100%"/>
+      <h4>
+       WALL·E (2008)
+      </h4>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div class="column animation">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/hlK0e0wAQ3VLuJcsfIYPvb4JVud.jpg" style="width:100%"/>
+      <h4>
+       Zootopia (2016)
+      </h4>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div class="column live-action">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/nAU74GmpUk7t5iklEp3bufwDq4n.jpg" style="width:100%"/>
+      <h4>
+       A Quiet Place (2018)
+      </h4>
+      <p>
+      </p>
+     </div>
+    </div>
+    <div class="column animation">
+     <div class="content">
+      <img alt="content" src="https://image.tmdb.org/t/p/original/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg" style="width:100%"/>
+      <h4>
+       How to Train Your Dragon (2010)
+      </h4>
+      <p>
+      </p>
+     </div>
+    </div>
+   </div>
+   <!-- END GRID -->
+   <!-- END MAIN -->
   </div>
-<!-- END GRID -->
-</div>
-
-<!-- END MAIN -->
-</div>
-
-<script>
-filterSelection("all")
+  <script>
+   filterSelection("all")
 function filterSelection(c) {
   var x, i;
   x = document.getElementsByClassName("column");
@@ -212,7 +288,6 @@ for (var i = 0; i < btns.length; i++) {
     this.className += " active";
   });
 }
-</script>
-
-</body>
+  </script>
+ </body>
 </html>
