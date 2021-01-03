@@ -25,8 +25,12 @@ h1 {
 }
 
 .row {
+  display: flex;
+  flex-wrap: wrap;
   margin: 10px -16px;
 }
+
+
 
 /* Add padding BETWEEN each column */
 .row,
@@ -34,11 +38,29 @@ h1 {
   padding: 8px;
 }
 
-/* Create three equal columns that floats next to each other */
+/* Create four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25.00%;
   display: none; /* Hide all elements by default */
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    float: left;
+    flex: 33.33%;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    float: left;
+    flex: 50.00%;
+    width: 50.00%;
+    display: none; /* Hide all elements by default */
+  }
 }
 
 /* Clear floats after rows */
