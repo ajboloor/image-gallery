@@ -1,6 +1,6 @@
 ## Image Gallery
 
-Live demo: ![https://ajboloor.github.io/image-gallery](https://ajboloor.github.io/image-gallery)
+Live demo: [https://ajboloor.github.io/image-gallery](https://ajboloor.github.io/image-gallery)
 
 ## Requirements
 
@@ -9,9 +9,9 @@ Install requirements:
 pip3 install -r requirements.txt
 ```
 
-- BeautifulSoup [![link](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)]
-- pandas [![link](https://pandas.pydata.org/)]
-- tmdbsimple [![link](https://github.com/celiao/tmdbsimple)]
+- BeautifulSoup [[link](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)]
+- pandas [[link](https://pandas.pydata.org/)]
+- tmdbsimple [[link](https://github.com/celiao/tmdbsimple)]
 
 ## Usage
 1. Install requirements stated above.
@@ -22,6 +22,6 @@ pip3 install -r requirements.txt
 6. Open `index.html` in a browser.
 
 ## References
-- ![HTML Portfolio Gallery with Filtering](https://www.w3schools.com/howto/howto_js_portfolio_filter.asp)
-- ![Hoverable Dropdown](https://www.w3schools.com/howto/howto_css_dropdown.asp)
-- ![The Movie Database (TMDb)](https://www.themoviedb.org/)
+- [HTML Portfolio Gallery with Filtering](https://www.w3schools.com/howto/howto_js_portfolio_filter.asp)
+- [Hoverable Dropdown](https://www.w3schools.com/howto/howto_css_dropdown.asp)
+- [The Movie Database (TMDb)](https://www.themoviedb.org/)
