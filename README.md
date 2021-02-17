@@ -2,6 +2,9 @@
 
 Live demo: [https://ajboloor.github.io/image-gallery](https://ajboloor.github.io/image-gallery)
 
+- note: hover over 'Movie' to bring a dropdown to switch to 'TV Shows'
+
+
 ## Requirements
 
 Install requirements:
