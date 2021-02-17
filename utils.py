@@ -35,7 +35,7 @@ def update_db(df, search, db_type='movie'):
                 df.loc[idx, 'Year'] = int(datetime.datetime.strptime(
                     response['release_date'], '%Y-%m-%d').year)
             elif db_type == 'tv':
-                df.loc[idx, 'Movie'] = response['name']
+                df.loc[idx, 'Title'] = response['name']
                 df.loc[idx, 'Year'] = int(datetime.datetime.strptime(
                     response['first_air_date'], '%Y-%m-%d').year)
             df.loc[idx, 'Poster'] = 'https://image.tmdb.org/t/p/w342' + \
