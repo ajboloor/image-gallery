@@ -2,7 +2,7 @@
 
 Live demo: [https://ajboloor.github.io/image-gallery](https://ajboloor.github.io/image-gallery)
 
-![preview.png](Preview of webpage)
+![Preview of webpage](preview.png)
 
 - note: hover over 'Movie' to bring a dropdown to switch to 'TV Shows'
 
