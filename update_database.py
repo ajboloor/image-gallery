@@ -19,7 +19,7 @@ if verify_api(search) is False:
 else:
     print("API_KEY Verified!")
 
-parser = argparse.ArgumentParser("Train optical Trojan")
+parser = argparse.ArgumentParser("Image Gallery")
 parser.add_argument("--movie", action="store_true",
                     help="update only movie database (by default does movie and tv)")
 parser.add_argument("--tv", action="store_true",

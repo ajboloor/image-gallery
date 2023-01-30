@@ -31,7 +31,7 @@ def update_db(df, search, db_type='movie'):
             response = search.tv(query=title)['results'][0]
         try:
             if db_type == 'movie':
-                df.loc[idx, 'Title'] = response['title']
+                df.loc[idx, 'Title'] = str(response['title'])
                 df.loc[idx, 'Year'] = int(datetime.datetime.strptime(
                     response['release_date'], '%Y-%m-%d').year)
             elif db_type == 'tv':
